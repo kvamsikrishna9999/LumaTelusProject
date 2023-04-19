@@ -1,0 +1,360 @@
+<html>
+<head>
+<title>TestNG:  TestNg</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNg</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 19 13:41:54 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>60 seconds (60184 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.customerLogin5()'><b>customerLogin5</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-1999639763" onClick='toggleBox("Output-1999639763", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1999639763" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1999639763">
+Create account link is clicked successfully<br/>
+FirstName is displayed successfully as vijay<br/>
+LastName is displayed successfully as Antony<br/>
+SignUp button is displayeded successfully<br/>
+SignUp button is enabled successfully<br/>
+SignUp button is clicked<br/>
+email is displayed successfully as krish503@gamil.com<br/>
+email is displayed successfully as Antony@143<br/>
+CreteAccount button is not Selected successfully<br/>
+CreteAccount button is enabled successfully<br/>
+CreteAccount button is clicked<br/>
+passwordError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The passwordError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.customerLogin1()'><b>customerLogin1</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-513128019" onClick='toggleBox("Output-513128019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-513128019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-513128019">
+Create account link is clicked successfully<br/>
+CreteAccount button is not Selected successfully<br/>
+CreteAccount button is enabled successfully<br/>
+CreteAccount button is clicked<br/>
+FirstNameError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The FirstNameError Msg is displayed as This is a required field.<br/>
+lastNameError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The lastNameError Msg is displayed as This is a required field.<br/>
+emailError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The emailError Msg is displayed as This is a required field.<br/>
+passwordError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The passwordError Msg is displayed as This is a required field.<br/>
+conformPasswordError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The conformPasswordError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.signInFunctionality3()'><b>signInFunctionality3</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-353489239" onClick='toggleBox("Output-353489239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-353489239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-353489239">
+SignIn button is not displayed successfully<br/>
+SignIn button is enabled successfully<br/>
+SignUp button is clicked<br/>
+Customer Login<br/>
+Title is displayed as :Customer Login<br/>
+email is displayed successfully as krish503@gamil.com<br/>
+password is displayed successfully as Antony@143<br/>
+SignIn button is not Selected successfully<br/>
+SignUp button is clicked<br/>
+SignIn button is enabled successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.signInFunctionality()'><b>signInFunctionality</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-830687787" onClick='toggleBox("Output-830687787", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-830687787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-830687787">
+SignIn button is not displayed successfully<br/>
+SignIn button is enabled successfully<br/>
+SignUp button is clicked<br/>
+Customer Login<br/>
+Title is displayed as :Customer Login<br/>
+SignIn button is not Selected successfully<br/>
+SignUp button is clicked<br/>
+SignIn button is enabled successfully<br/>
+emailError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The emailError Msg is displayed as This is a required field.<br/>
+passwordError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The passwordError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.customerLogin()'><b>customerLogin</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-481947474" onClick='toggleBox("Output-481947474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-481947474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-481947474">
+Create account link is clicked successfully<br/>
+FirstName is displayed successfully as vijay<br/>
+LastName is displayed successfully as Antony<br/>
+SignUp button is displayeded successfully<br/>
+SignUp button is enabled successfully<br/>
+SignUp button is clicked<br/>
+email is displayed successfully as krish503@gamil.com<br/>
+email is displayed successfully as Antony@143<br/>
+email is displayed successfully as Antony@143<br/>
+CreteAccount button is not Selected successfully<br/>
+CreteAccount button is enabled successfully<br/>
+CreteAccount button is clicked<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.signOutOption()'><b>signOutOption</b><br>Test class: com.telus.testcases.EndToEndTestFlow</td>
+<td></td>
+<td>2</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.customerLogin3()'><b>customerLogin3</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-1916269505" onClick='toggleBox("Output-1916269505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1916269505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1916269505">
+Create account link is clicked successfully<br/>
+FirstName is displayed successfully as vijay<br/>
+SignUp button is displayeded successfully<br/>
+SignUp button is enabled successfully<br/>
+SignUp button is clicked<br/>
+email is displayed successfully as krish503@gamil.com<br/>
+email is displayed successfully as Antony@143<br/>
+email is displayed successfully as Antony@143<br/>
+CreteAccount button is not Selected successfully<br/>
+CreteAccount button is enabled successfully<br/>
+CreteAccount button is clicked<br/>
+lastNameError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The lastNameError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.logoPageValidation()'><b>logoPageValidation</b><br>Test class: com.telus.testcases.EndToEndTestFlow</td>
+<td></td>
+<td>3</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.customerLogin4()'><b>customerLogin4</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-998015174" onClick='toggleBox("Output-998015174", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-998015174" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-998015174">
+Create account link is clicked successfully<br/>
+FirstName is displayed successfully as vijay<br/>
+LastName is displayed successfully as Antony<br/>
+SignUp button is displayeded successfully<br/>
+SignUp button is enabled successfully<br/>
+SignUp button is clicked<br/>
+email is displayed successfully as Antony@143<br/>
+email is displayed successfully as Antony@143<br/>
+CreteAccount button is not Selected successfully<br/>
+CreteAccount button is enabled successfully<br/>
+CreteAccount button is clicked<br/>
+emailError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The emailError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.signInFunctionality2()'><b>signInFunctionality2</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-1796615884" onClick='toggleBox("Output-1796615884", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1796615884" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1796615884">
+SignIn button is not displayed successfully<br/>
+SignIn button is enabled successfully<br/>
+SignUp button is clicked<br/>
+Customer Login<br/>
+Title is displayed as :Customer Login<br/>
+email is displayed successfully as krish503@gamil.com<br/>
+SignIn button is not Selected successfully<br/>
+SignUp button is clicked<br/>
+SignIn button is enabled successfully<br/>
+passwordError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The passwordError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.customerLogin6()'><b>customerLogin6</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-728985582" onClick='toggleBox("Output-728985582", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-728985582" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-728985582">
+Create account link is clicked successfully<br/>
+FirstName is displayed successfully as vijay<br/>
+LastName is displayed successfully as Antony<br/>
+SignUp button is displayeded successfully<br/>
+SignUp button is enabled successfully<br/>
+SignUp button is clicked<br/>
+email is displayed successfully as krish503@gamil.com<br/>
+email is displayed successfully as Antony@143<br/>
+CreteAccount button is not Selected successfully<br/>
+CreteAccount button is enabled successfully<br/>
+CreteAccount button is clicked<br/>
+conformPasswordError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The conformPasswordError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.signInFunctionality1()'><b>signInFunctionality1</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-2000856156" onClick='toggleBox("Output-2000856156", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2000856156" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2000856156">
+SignIn button is not displayed successfully<br/>
+SignIn button is enabled successfully<br/>
+SignUp button is clicked<br/>
+Customer Login<br/>
+Title is displayed as :Customer Login<br/>
+password is displayed successfully as Antony@143<br/>
+SignIn button is not Selected successfully<br/>
+SignUp button is clicked<br/>
+SignIn button is enabled successfully<br/>
+emailError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The emailError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+<tr>
+<td title='com.telus.testcases.EndToEndTestFlow.customerLogin2()'><b>customerLogin2</b><br>Test class: com.telus.testcases.EndToEndTestFlow<br/>
+<a href="#Output-2127123542" onClick='toggleBox("Output-2127123542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2127123542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2127123542">
+Create account link is clicked successfully<br/>
+LastName is displayed successfully as Antony<br/>
+SignUp button is displayeded successfully<br/>
+SignUp button is enabled successfully<br/>
+SignUp button is clicked<br/>
+email is displayed successfully as krish503@gamil.com<br/>
+email is displayed successfully as Antony@143<br/>
+email is displayed successfully as Antony@143<br/>
+CreteAccount button is not Selected successfully<br/>
+CreteAccount button is enabled successfully<br/>
+CreteAccount button is clicked<br/>
+FirstNameError Msg is displayed successfully<br/>
+Actual and Expected title is same<br/>
+The FirstNameError Msg is displayed as This is a required field.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.telus.testcases.EndToEndTestFlow@63fbfaeb</td></tr>
+</table><p>
+</body>
+</html>

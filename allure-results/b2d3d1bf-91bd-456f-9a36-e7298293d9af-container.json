@@ -1,0 +1,1 @@
+{"uuid":"b2d3d1bf-91bd-456f-9a36-e7298293d9af","name":"UI Test Suite","children":["803eff63-3b12-49b7-9a0b-e9550445bbcb"],"befores":[{"name":"launchBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1671434133226,"stop":1671434136282}],"afters":[],"start":1671434133201,"stop":1671434269953}
