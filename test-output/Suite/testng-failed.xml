@@ -12,7 +12,6 @@
           <include name="launchApplication"/>
           <include name="closeApplication"/>
           <include name="customerLogin1"/>
-          <include name="signInFunctionality2"/>
         </methods>
       </class> <!-- com.telus.testcases.EndToEndTestFlow -->
     </classes>
